@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import './ComponentCSS/FlashCard.css';
 
 export default function Flashcard({ question, answer }) {
