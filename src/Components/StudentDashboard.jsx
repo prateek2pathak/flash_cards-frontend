@@ -4,7 +4,7 @@ import Flashcard from "./FlashCard.jsx";
 import './ComponentCSS/StudentDashboard.css';
 
 const client = axios.create({
-    baseURL: "http://localhost:4040/"
+    baseURL: 'https://flashcard-backend121.onrender.com/'
 });
 
 export default function StudentDashboard() {
