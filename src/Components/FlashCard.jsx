@@ -7,6 +7,9 @@ export default function Flashcard({ question, answer }) {
     const handleFlip = () => {
         setflip(!flip);
     };
+    useEffect(() => {
+        setflip(false);
+    }, [question, answer]);
 
     return (
         <div className={`flashcard ${flip ? 'flipped' : ''}`} onClick={handleFlip}>
