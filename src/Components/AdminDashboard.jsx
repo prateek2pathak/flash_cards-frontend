@@ -3,7 +3,7 @@ import axios from "axios";
 import './ComponentCSS/Admin.css';
 
 const client = axios.create({
-    baseURL: 'https://flashcard-backend121.onrender.com/'
+    baseURL: 'https://flashcard-backend-sh7q.onrender.com'
 });
 export default function AdminDashboard() {
     const [newDeckName, setNewDeckName] = useState("");
